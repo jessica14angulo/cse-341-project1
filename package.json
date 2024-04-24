@@ -1,0 +1,19 @@
+{
+  "name": "cse-341-project1",
+  "version": "1.0.0",
+  "description": "Project 1 Week 1",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessica14angulo/cse-341-project1.git"
+  },
+  "author": "Jessica Angulo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessica14angulo/cse-341-project1/issues"
+  },
+  "homepage": "https://github.com/jessica14angulo/cse-341-project1#readme"
+}
