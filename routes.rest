@@ -1,0 +1,38 @@
+//Localhost
+### Get all contacts
+GET http://localhost:3000/contacts
+
+### Get contact by id for contact 1
+GET http://localhost:3000/contacts/6629b5bf93ed24ea10f6445f
+
+### Get contact by id for contact 2
+GET http://localhost:3000/contacts/6629b6e393ed24ea10f64460
+
+### Get contact by id for contact 3
+GET http://localhost:3000/contacts/6629b74993ed24ea10f64461
+
+//Render
+###Link for render project
+https://project1-o6t2.onrender.com
+
+###Link for render all contacts
+https://project1-o6t2.onrender.com/contacts
+
+###Link for render contact 1
+https://project1-o6t2.onrender.com/contacts/6629b5bf93ed24ea10f6445f
+
+###Link for render contact 2
+https://project1-o6t2.onrender.com/contacts/6629b6e393ed24ea10f64460
+
+###Link for render contact 3
+https://project1-o6t2.onrender.com/contacts/6629b74993ed24ea10f64461
+
+# Contacts structure
+{
+    "_id": "6629b5bf93ed24ea10f6445f",
+    "firstName": "Cinthia",
+    "lastName": "Angulo",
+    "email": "cinthiaangulo1971@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "05-07-1971"
+}
