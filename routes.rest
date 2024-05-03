@@ -1,3 +1,4 @@
+//WEEK 1
 //Localhost
 ### Get all contacts
 GET http://localhost:3000/contacts
@@ -36,3 +37,32 @@ https://project1-o6t2.onrender.com/contacts/6629b74993ed24ea10f64461
     "favoriteColor": "Green",
     "birthday": "05-07-1971"
 }
+
+
+//WEEK 2
+### Create contact
+POST http://localhost:3000/contacts  HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Jessica",
+    "lastName": "Angulo",
+    "email": "jessica@gmail.com",
+    "favoriteColor": "Pink",
+    "birthday": "10-01-2002"
+}
+
+### Update contact
+PUT http://localhost:3000/contacts/6629b5bf93ed24ea10f6445f HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Cinthia",
+    "lastName": "Angulo",
+    "email": "cinthia@gmail.com",
+    "favoriteColor": "Green",
+    "birthday": "05-07-1971"
+}
+
+### Delete contact
+DELETE http://localhost:3000/contacts/6633b2e8dc893fd515b77111 HTTP/1.1
